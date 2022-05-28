@@ -179,3 +179,27 @@ figcaption {
 .column{
 	text-align: center;
 }
+
+.doorstep {
+	background-color: white;
+  	width: 480px;
+  	height: 271px;
+  	padding-left: 98px ;
+  	padding-top: 200px;
+  	border-color: white;
+}
+
+.doorstep .smalltitle {
+	font-size: 30px;
+	font-weight: 7001;
+	color: steelblue;
+	padding:  0px;	
+
+}
+
+.sunglass {
+  width: 200px;
+  height: 100px;
+  padding: 50px 700px;
+  position: absolute;
+}
