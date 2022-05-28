@@ -17,8 +17,7 @@
 .navbar{
 	/*position:fixed; */
 	width:100%;
-	background:whitesmoke;
-	font-family: 'Ubuntu';
+	background:whitesmoke;	
 	padding:30px 0;
 	/*transition: all 0.3s ease;*/
 	z-index: 999;
@@ -104,3 +103,59 @@ ul.listscroll {
 	float: left;
 	display: inline-block;
 }  */
+
+
+/* FRAME SHAPE */
+.frameshape {
+	display:inline-block;
+}
+
+.frameshape img{
+	width: 200px;
+}
+
+.row .column {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+#roundshape {
+	padding-left: 150px;
+}
+
+.whitesmokebg {
+	background-color: whitesmoke;
+}
+
+.text {
+	font-family: 'Poppins';
+}
+
+.smalltitle {
+	font-size: 40px;
+	font-weight: 670;
+	padding-left: 140px;
+	padding-top: 40px;
+}
+
+
+/* BLUE LIGHT BLOCKING GLASSES */
+
+.secmainpic .text {
+	color:  white;
+	position: absolute;
+	text-align: center;
+	padding: 50px 300px;
+	font-size: 15px;	
+}
+
+/* NEW ARRIVALS */
