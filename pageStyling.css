@@ -203,3 +203,23 @@ figcaption {
   padding: 50px 700px;
   position: absolute;
 }
+
+.Reviewhome {
+	background-color: rgb(233, 223, 216);
+}
+
+.Reviewhome .smalltitle{
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.pgend {
+	background-color: black;
+	color: white;
+	font-family: 'Poppins';
+}
+
+.emailsub {
+	background-color: grey;
+	border-radius: 6px;
+}
