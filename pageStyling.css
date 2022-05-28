@@ -1,0 +1,106 @@
+/* NAVIGATION BAR*/
+
+#logo {
+	padding:1px 100px 1px 0px;
+}
+
+#navbarpic{
+	padding-left: 100px;
+}
+
+
+.max_width{
+	/*margin:auto;*/
+	max-width: 1366px;
+	padding: 0 80px;
+}
+.navbar{
+	/*position:fixed; */
+	width:100%;
+	background:whitesmoke;
+	font-family: 'Ubuntu';
+	padding:30px 0;
+	/*transition: all 0.3s ease;*/
+	z-index: 999;
+}
+
+/*.navbar.sticky{
+	padding: 15px 0;
+	background: plum;
+}*/
+
+.navbar .max_width{
+	display:flex;
+	/*align-items:center;*/
+	justify-content:space-between;
+}
+
+.navbar .menu{
+	/*font-size:35px;
+	color:black;
+	font-weight:600;
+	text-decoration: none;*/
+	margin: 1px 5px 15px 0px;
+
+}
+
+.navbar .menu li{
+	list-style:none;
+	display:inline-block;
+}
+.navbar .menu li a{
+	color:black;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition:color 0.3s ease;
+	text-decoration: none;
+}
+
+/*.navbar .menu li a:hover{
+	color: purple;
+	text-decoration: none;
+	font-weight: bold;
+}*/
+
+
+
+
+/*HOME PAGE STYLING */
+
+
+.mainpic .text {
+	position: absolute;
+	font-family: 'Poppins';
+	font-size: 45px;
+	font-weight: 550;
+	padding: 70px 70px 30px 60px;
+}
+#selframe {
+	color: gray;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.shopbutton {
+	background-color: rgb(236, 126, 44);
+	color: white;
+	font-size: 25px;
+    text-align: center;
+    padding: 12px 86px;
+	margin-top: 3px;
+	border-radius: 10px;
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+/*#listscroll {
+	display: inline-block;
+    padding: 10px 20px;
+}
+
+ul.listscroll {
+	float: left;
+	display: inline-block;
+}  */
