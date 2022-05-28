@@ -91,6 +91,7 @@
 	border-radius: 10px;
 	text-decoration: none;
 	display: inline-block;
+	font-family: 'Poppins';
 
 }
 
@@ -145,6 +146,7 @@ ul.listscroll {
 	font-weight: 670;
 	padding-left: 140px;
 	padding-top: 40px;
+	font-family: 'Poppins';
 }
 
 
@@ -159,3 +161,21 @@ ul.listscroll {
 }
 
 /* NEW ARRIVALS */
+.newarrival .smalltitle {
+	text-align: center;
+	padding: 40px 0px;
+}
+
+.newarrival figure {
+	border-color: grey;
+	border-radius: 6px;
+	border-style: solid;
+}
+
+figcaption {
+	text-align: center;
+}
+
+.column{
+	text-align: center;
+}
