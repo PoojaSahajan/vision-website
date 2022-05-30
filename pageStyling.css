@@ -126,12 +126,20 @@ ul.listscroll {
 
 .column {
   flex: 25%;
-  padding: 5px;
+  /*padding: 5px;*/
 }
 
-#roundshape {
-	padding-left: 150px;
+.column figure{
+	border: 2px solid gainsboro; 
+	padding: 50px; 
+	border-radius: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
+
+/*#roundshape {
+	padding-left: 150px;
+}*/
 
 .whitesmokebg {
 	background-color: whitesmoke;
@@ -238,8 +246,8 @@ figcaption {
 }
 
 .specstable th{
-    border: 1px solid lightgray;
-    border-radius: 5px;
+   /* border: 1px solid lightgray;
+    border-radius: 5px;*/
     font-weight: 400;
 }
 
@@ -260,4 +268,33 @@ float:left;
     width:100%;
     height:auto;
     padding:1%;
+}
+
+
+.tab {
+  overflow: hidden;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+
+
+
+.tab button.active {
+  background-color: whitesmoke;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 60px 62px;
 }

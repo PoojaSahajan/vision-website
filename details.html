@@ -59,6 +59,117 @@ ligula. Cras a tortor pharetra, suscipit.
 	</div>
 </div>
 
+<div class="tab">
+  <button class="tablinks" onclick="opentab(event, 'Description')" id="defaultOpen">DESCRIPTION</button>
+  <button class="tablinks" onclick="opentab(event, 'Review')">REVIEWS</button>
+  <button class="tablinks" onclick="opentab(event, 'faq')">FAQ</button>
+</div>
+
+<div id="Description" class="tabcontent" style="background-color: whitesmoke;">
+ 
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et libero erat.
+Maecenas a aliquet odio, ut convallis ligula. Cras a tortor pharetra, suscipit augue ut
+lobortis magna. Donec et varius neque. 
+Sed suscipit ipsum sit amet mattis hendrerit. Donec malesuada sit amet ligula ac</p>
+</div>
+
+<div id="Review" class="tabcontent" style="background-color: whitesmoke;">
+
+  <h4>Rohan Sharma</h4>
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+</p>
+
+<h4>Soni R</h4>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem</p>
+
+<h4>Zoya Khan</h4>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem</p>
+</div>
+
+<div id="faq" class="tabcontent" style="background-color: whitesmoke;">
+
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem</p>
+</div>
+
+<script>
+function opentab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+<!-- OTHER BEST RATED PDTS -->
+<div class="text">
+<div class="newarrival">
+<div class="smalltitle">
+Other Best Rated Products
+</div>
+</div>
+
+<div class="row">
+  <div class="column">
+ 	 <figure style="border: 2px solid gainsboro; padding: 50px; border-radius: 20px;">
+  <img src="images/aviator 2.jpeg">
+  <figcaption >Alston levitate Aviator
+Glasses  <br><br><font color="red">&#8377; 2,500</font>
+<s>&#8377; 3,500
+</s></figcaption>
+</figure>
+</div>
+ 
+
+  <div class="column">
+<figure>
+  <img src="images/aviator 3.jpeg">
+  <figcaption>Alston levitate Aviator
+Glasses<br><br>
+&#8377; 2,500</figcaption>
+</figure>
+</div>
+
+  <div class="column">
+ <figure>
+  <img src="images/aviator 4.jpeg">
+  <figcaption>Alston levitate Aviator
+Glasses<br><br>
+&#8377; 2,500</figcaption>
+</figure>
+</div>
+
+
+  <div class="column">
+<figure>
+  <img src="images/aviator 5.jpeg">
+  <figcaption>Alston levitate Aviator
+Glasses<br><br>
+&#8377; 2,500</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
 <!-- PAGE END -->
 <div class="pgend">
 	
