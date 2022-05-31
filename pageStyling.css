@@ -85,14 +85,18 @@
 	background-color: rgb(236, 126, 44);
 	color: white;
 	font-size: 25px;
-    text-align: center;
-    padding: 12px 86px;
+  text-align: center;
+  padding: 12px 86px;
 	margin-top: 3px;
 	border-radius: 10px;
 	text-decoration: none;
 	display: inline-block;
 	font-family: 'Poppins';
 
+}
+.shopbutton a{
+	text-decoration: none;
+	color: white;
 }
 
 /*#listscroll {
@@ -133,8 +137,8 @@ ul.listscroll {
 	border: 2px solid gainsboro; 
 	padding: 50px; 
 	border-radius: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 4px;
+	margin-right: 4px;
 }
 
 /*#roundshape {
@@ -251,6 +255,9 @@ figcaption {
     font-weight: 400;
 }
 
+.specstable input{
+	font-weight: 200;
+}
 
 .displayspec {
 	width: 40%;
@@ -264,7 +271,7 @@ figcaption {
 float:left; 
 }
 
-.container2 {
+.container {
     width:100%;
     height:auto;
     padding:1%;
@@ -297,4 +304,102 @@ float:left;
 .tabcontent {
   display: none;
   padding: 60px 62px;
+}
+
+.summary {
+	width: 35%;
+	height: 40%;
+	margin:  30px;
+	background-color: whitesmoke;
+	padding: 60px 73px;
+	margin-top: 10px;
+	border-radius: 20px;
+	margin-left:2%;
+float:right; 
+}
+
+.cartdisplayspec {
+	width: 35%;
+	height: 40%;
+	margin:  30px;
+	background-color: whitesmoke;
+	padding: 200px 73px;
+	margin-top: 10px;
+	border-radius: 20px;
+	margin-left:2%;
+float:left; 
+}
+
+.checkdisplayspec{
+	width: 20%;
+	height: 30%;
+	margin: 20px;
+	background-color: whitesmoke;
+	padding: 170px 33px;
+	margin-top: 10px;
+	margin-left:0%;
+float:left; 
+}
+}
+
+
+.revtab {
+
+  overflow: hidden;
+  padding: 20px;
+  margin: 20px;
+}
+
+.revtab button {
+  background-color: black;
+  float: left;
+  border: solid white;
+  border-radius: 50%;
+  outline: solid gray;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+
+
+.revtab button.active {
+  background-color: #ccc;
+}
+
+.revtabcontent {
+  display: none;
+  padding: 60px 62px;
+
+}
+.revtabcontent th{
+	font-weight: 300;
+	padding: 10px;
+}
+
+.revtabcontent th:nth-child(1){
+	font-weight: 500;
+}
+
+
+.displaycon {
+	width: 30%;
+	height: 40%;
+	margin:  10px;
+	background-color: whitesmoke;
+	padding: 40px 90px;
+	margin-top: 10px;
+	border-radius: 20px;
+	margin-left:2%;
+float:left; 
+}
+
+.checkoutb a{
+	background-color: white; 
+	color: black; 
+	border: 1px solid #EC7E2C;
+	padding: 10px 50px;
+	border-radius: 10px;
+	text-decoration: none;
 }
